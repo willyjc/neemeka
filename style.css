@@ -1,0 +1,711 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'poppins', sans-serif;
+	background-color: rgb(202, 223, 201); 
+	width: 100%;
+}
+/*navbar*/
+
+.navbar {
+    background-color: #09a545; /* Background color of the navbar */
+    display: flex;
+    position: sticky;
+    top: 0px; /* Sticks the navbar to the top of the page */
+    align-items: center;
+    padding: 20px;
+    z-index: 1000; /* Ensures the navbar appears above other content */
+    width: 100%; /* Makes sure it spans the entire width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    color: #555;
+}
+
+ul li a:hover {
+    color: #3fc1ba;
+    border-color: #ffd6d6;
+}
+
+.current a {
+    background-color: #555; /* Background color for current page */
+    color: white; /* Ensure text is readable */
+    padding: 5px;
+}
+
+.menu-icon{
+	width: 28px;
+	margin-left: 28px;
+	display: none;
+}
+
+
+/* Merged from inline HTML <style> block */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(90deg, green, white, blue);
+  padding: 15px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar img {
+  height: 60px;
+  width: 120px;
+}
+.navbar h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+nav li {
+  margin-right: 15px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+section {
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+h3 {
+  margin-top: 0;
+}
+h4 {
+  margin-bottom: 0;
+}
+.btn {
+  background: blue;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.product-table td,
+.product-table th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+/* Container layout */
+.testimonial {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Individual testimonial card */
+.testimonial .col-3 {
+  background: #f5f5f5;
+  padding: 1.25rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Quote icon */
+.testimonial .col-3 i.fa-quote-left {
+  font-size: 1.5rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* Testimonial text */
+.testimonial .col-3 p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+/* Reviewer image (before rating) */
+.testimonial .col-3 img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+/* Ratings */
+.testimonial .rating {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 0.75rem;
+}
+
+.testimonial .rating i {
+  color: #f5a623;
+}
+
+/* Reviewer name */
+.testimonial .col-3 h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 900px) {
+  .testimonial {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-text {
+  flex: 0 0 40%;
+}
+
+.about-image {
+  flex: 0 0 60%;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Container grid */
+.loan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Individual loan item styling */
+.loan-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+.loan-item h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+  color: #333;
+}
+
+/* Feature lists */
+.loan-item p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+  color: #555;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .loan-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .loan-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*--------slider--------*/
+
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Prevent overflow */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+    height: 600px; /* Default height for larger screens */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Arrow button styles */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(17, 177, 57);
+    color: purple;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; /* Lower than the menu */
+}
+
+/* Positioning the arrows */
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Dots for slide indicators */
+.slider-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Dot styles */
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(17, 177, 57);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Hover effects */
+.arrow:hover {
+    color: #ff523b;
+    background-color: rgb(17, 54, 155);
+}
+
+.dot:hover {
+    color: #ff523b;
+    background-color: rgb(17, 177, 57);
+}
+
+.dot.active {
+    background-color: #ff523b;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .slide {
+        height: 400px; /* Reduced height for tablets */
+		width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .slide {
+        height: 250px; /* Further reduced height for mobile devices */
+		width: 100%;
+    }
+
+    .arrow {
+        padding: 8px; /* Reduce padding on arrows for smaller screens */
+    }
+
+    .dot {
+        width: 8px; /* Smaller dots for mobile */
+        height: 8px;
+    }
+}
+
+
+/*---table---*/
+
+.container {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Responsive table wrapper */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Adjust table for mobile screens */
+@media only screen and (max-width: 600px) {
+    th, td {
+        padding: 6px;
+        font-size: 14px;
+		width: 100%;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+/*logos*/
+
+.carousel {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 100%; /* Make it full width */
+    overflow: hidden;
+    position: relative; /* Ensure absolute positioning works */
+    display: flex;
+    justify-content: center; /* Center the cards */
+    align-items: center;
+}
+
+.card {
+    min-width: 150px; /* Set a minimum width for each card */
+    height: auto;
+    margin: 0 10px; /* Add spacing between cards */
+    color: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 20px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 100%; /* Ensure logos fit within the card */
+    height: auto;
+    object-fit: contain; /* Ensure logos retain their aspect ratio */
+}
+
+.group {
+    display: flex;
+    gap: 20px;
+    will-change: transform;
+    animation: scrolling 30s linear infinite; /* Slower scrolling for a smoother effect */
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Scrolls halfway through the duplicated content */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        min-width: 120px; /* Reduce card width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        min-width: 100px; /* Further reduce card width for mobile */
+    }
+}
+
+
+/*--------footer-------*/
+
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p{
+	color: #8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.footer-col-1{
+	flex-basis: 30%;
+}
+.footer-col-3{
+	flex-basis: 12;
+	text-align: right;
+}
+ul{
+	list-style-type: none;
+}
+.app-logo{
+	margin-top: 20px;
+}
+.app-logo img{
+	width: 140px;
+}
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+.copyright{
+	text-align: center;
+}
+
+/*--social media--*/
+.button{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #1e9c95;;
+	border-radius: 40px;
+	line-height: 50px;
+	text-align: center;
+	box-shadow: 0px, 10px, 10px, rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .button .icon{
+	font-size: 20px;
+	color: black;
+  }
+  .wrapper .button:hover{
+  width: 100px;
+  transition: 0.7s;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+	color: #3fc1ba;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+	color: #3fc1ba;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+	color: #3fc1ba;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+	color: green;
+  }
+  .underline{
+	color: #3fc1ba;
+  }
+ 
+/*--------media query for menu--------*/
+@media only screen and (max-width: 800px){
+	nav ul{
+		position: absolute;
+		top: 70px;
+		right: 0;
+		background: black;
+		width: 50%;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+	nav ul li{
+		display: block;
+		margin-right: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	nav ul li a{
+		color: #fff;
+	}
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+
+	}
+}
+
+
+
+button {
+    padding: 0.75rem;
+    background-color: #028482;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f9907;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    text-align: center;
+    color: #555;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    color: #028482;
+}
+
+/*---media query for  less than 600px screen---*/
+@media only screen and (max-width: 600px){
+	.row{
+		text-align: center;
+		width: 100%; 
+	}
+	.col-2, .col-3, .col-4{
+		flex-basis: 100%;
+	}
+	.single-product .row{
+	text-align: left;
+	width: 100%; 
+}
+.single-product .col-2{
+padding: 20px 0;
+width: 100%; 
+}
+.single-product h1{
+	font-size: 26px;
+	line-height: 32px; 
+}
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .col-2, .col-3 {
+        flex: 1 1 100%; /* Full width on smaller screens */
+    }
+
+    .slider h2 {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+
+    .time {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+}
+
+/* Hide menu icon on desktop */
+@media (min-width: 801px) {
+  .menu-icon {
+    display: none !important;
+  }
+}
+
+/* Show menu icon on tablets & mobile */
+@media (max-width: 800px) {
+  .menu-icon {
+    display: block !important;
+  }
+}
+
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer and other styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+
+.categories{
+	flex-basis: 100%;
+}

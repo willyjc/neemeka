@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEEMEKA SACCO</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Top bar with contact & social icons -->
+<div class="top-bar">
+  <div class="top-left">
+    <span><a href="tel:+254796361377">+254796361377</a></span> 
+    | <span><a href="mailto:info@neemekasacco.co.ke">info@neemekasacco.co.ke</a></span>
+  </div>
+  <div class="top-right">
+    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+
+<!-- Main navbar -->
+<header class="navbar">
+  <!-- Sidebar toggle icon next to logo -->
+  <div id="sidebar-toggle" class="side-toggle-icon">
+    <i class="fas fa-bars"></i>
+  </div>
+  <h2>NEEMEKA SACCO</h2>
+  <!-- Off-canvas side navigation -->
+  <div id="sidebar-nav" class="sidebar-nav">
+    <div class="sidebar-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <ul class="sidebar-menu">
+      <li><a href="#index"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+      <li class="dropdown">
+        <a href="#products">
+          <i class="fas fa-box-open"></i> Products <i class="fas fa-caret-down caret"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="deposit.html">Deposit Accounts</a></li>
+          <li><a href="savings.html">Smart Savings Solutions</a></li>
+          <li><a href="loans.html">Smart Loan Solutions</a></li>
+        </ul>
+      </li>
+      <li><a href="#members"><i class="fas fa-users"></i> Management</a></li>
+      <li><a href="#gallery"><i class="fas fa-image"></i> Gallery</a></li>
+      <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+    </ul>
+    <div class="sidebar-social">
+      <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <div class="logo-nav">
+    <img src="images/logo2.jpg" alt="logo">
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="#index">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li class="dropdown">
+          <a href="#products">PRODUCTS & SERVICES</a>
+          <ul class="submenu">
+            <li><a href="deposit.html">Deposit Accounts</a></li>
+            <li><a href="savings.html">Smart Savings Solutions</a></li>
+            <li><a href="loans.html">Smart Loan Solutions</a></li>
+          </ul>
+        </li>
+        <li><a href="#members">MANAGEMENT</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <a href="/join" class="join-button">Join Us</a>
+
+  </div>
+  <div class="mobile-toggle">
+    <i class="fas fa-bars" onclick="menutoggle()"></i>
+  </div>
+</header>
+
+
+  <section id="index">
+		<div class="slider-container">
+	  <div class="slider">
+		<div class="slide" style="background-image: url('slider\ 7.png');">		
+			<h2 style= "text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Best SACCO experience—easy loans <br> great support!.</h2>
+		</div>
+    	<div class="slide" style="background-image: url('slider\ 1.png');">		
+			<h2 style= "text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Best SACCO experience—easy loans <br> great support!.</h2>
+		</div>
+		<div class="slide" style="text-align: center; background-image: url('slider\ 2.png');">
+			<h2 style="color: #fff; background-color: rgba(0, 0, 0, 0.5);">Best SACCO experience—easy loans <br> great support!.</h2>
+		</div>
+		<div class="slide" style="background-image: url('slider\ 3.png');">
+			<h2 style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Best SACCO experience—easy loans <br> great support!.</h2>	
+		</div>
+		<div class="slide" style="background-image: url('slider\ 4.png');">
+			<h2 style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Best SACCO experience—easy loans <br> great support!.</h2>
+		</div>
+		<div class="slide" style="background-image: url('slider\ 5.png');">
+			<h2 style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Best SACCO experience—easy loans <br> great support!.</h2>
+		</div>
+		<div class="slide" style="background-image: url('slider\ 6.png');">
+			<h2 style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Best SACCO experience—easy loans <br> great support!.</h2>
+		</div>
+	  </div>
+	  <button class="arrow prev">&#10094;</button>
+	  <button class="arrow next">&#10095;</button>
+	  <div class="slider-dots"></div>
+	</div>
+  </section>
+
+  <section id="about">
+    <div class="about-wrapper">
+      <div class="about-text">
+        <h1>About Us</h1>
+        <p>NEEMEKA SACCO was established in 1975, is a cooperative society committed to promoting savings, offering affordable credit, and providing financial advisory services. Originally serving Kwale County staff, it has since expanded to include individuals, groups, and companies, helping members manage and grow their finances effectively.</p>
+        <h2>Mission</h2>
+        <p>To enable members to attain financial independence through market-driven products and services.</p>
+        <h2>Vision</h2>
+        <p>To be the model SACCO in offering quality and innovative solutions.</p>
+        <h2>Core Values </h2>
+        <p>Integrity • Teamwork • Customer focus • Professionalism • Equity • Innovation</p>
+      </div>
+      <div class="about-image">
+        <img src="images/2.jpg" alt="About NEEMEKA SACCO">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="partners">
+    <h1 style="color: #1e9c95; text-align: center;">Our Partners</h1>
+        <div class="carousel">
+          <div aria-hidden class="group">
+              <!-- First set of logos -->
+              <div class="card">
+              <img src="images/3.jpg" alt="logo">   
+              </div>
+              <div class="card">
+              <img src="images/4.jpg" alt="logo">   
+              </div>
+              <div class="card">
+              <img src="images/5.jpg" alt="logo">   
+              </div>
+              <div class="card">
+              <img src="images/6.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/7.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/8.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/9.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/10.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/3.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/4.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/5.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/6.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/7.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/8.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/9.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/10.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/3.jpg" alt="logo">
+              </div>                        
+              <div class="card">
+              <img src="images/4.jpg" alt="logo">
+              </div>                         
+              <div class="card">
+              <img src="images/5.jpg" alt="logo">
+              </div>                         
+              <div class="card">
+              <img src="images/6.jpg" alt="logo">
+              </div>
+        
+              <!-- Duplicate set of logos for seamless looping -->
+              <div class="card">
+              <img src="images/7.jpg" alt="logo">   
+              </div>
+              <div class="card">
+              <img src="images/8.jpg" alt="logo">   
+              </div>
+              <div class="card">
+              <img src="images/9.jpg" alt="logo">   
+              </div>
+              <div class="card">
+              <img src="images/10.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/3.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/4.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/5.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/6.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/7.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/8.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/9.jpg" alt="logo">
+              </div>
+              <div class="card">
+              <img src="images/10.jpg" alt="logo">
+              </div>
+          </div>                                                                                                
+        </div>
+  </section>
+
+  
+  <section id="products">
+    <h1 style="text-align: center; color: #043357;">Our Products</h1>
+    <div class="products-container">
+      <div class="product-card">
+        <h2>Deposit Accounts</h2>
+        <p>Secure your financial future with dependable, rewarding deposit options. Perfect for individuals or groups seeking to grow their savings while maintaining access to low‑cost credit.</p>
+      </div>
+      <div class="product-card">
+        <h2>Smart Savings Solutions</h2>
+        <p>From education and emergencies to holidays and long‑term goals—Neemeka Sacco offers flexible, lifestyle‑tailored savings plans. Let your money work for you, securely and accessibly.</p>
+      </div>
+      <div class="product-card">
+        <h2>Smart Loan Solutions</h2>
+        <p>Empowering you with affordable, flexible credit when you need it most. Whether it's for emergency, education, business, or personal growth, we’ve got a loan just right for you.</p>
+      </div>
+    </div>
+
+  </section> 
+
+
+
+  <section id="why-join">
+    <h3>Why Join NEEMEKA SACCO?</h3>
+    <div class="why-cards">
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-coins"></i></div>
+        <h4>High dividends & deposit interest</h4>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-bolt"></i></div>
+        <h4>Fast loan processing & mobile access</h4>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-globe"></i></div>
+        <h4>24/7 Internet banking</h4>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-percent"></i></div>
+        <h4>Low‑interest, reducing balance loans</h4>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-users"></i></div>
+        <h4>Member‑centered, top‑performing SACCO</h4>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="leadership">
+    <h2>Leadership & Governance</h2>
+    <div class="leadership-cards">
+      <div class="card">
+        <div class="icon">👥</div>
+        <h3>General Assembly:</h3>
+        <p>Supreme decision‑making body—annual/special meetings by members.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏛️</div>
+        <h3>Board of Directors (9):</h3>
+        <p>Elected at AGM. Executive Committee (Chair, Vice‑Chair, Treasurer, Secretary) oversees daily operations. CEO & staff report to them.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🧑‍💼</div>
+        <h3>Executive Committee:</h3>
+        <p>Mr Sawa H Ngalaa (Chair), Ms Zena Guha (Vice‑Chair), Mr Filex Marago, Mr Tsungu Ngao, Ms Mwaka Mwachiti, Mr Hamisi Mbovoko, Mr Nicholas Mtende, Ms Felistus Nduku. CEO: Mr Kennedy Akenga.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📋</div>
+        <h3>Management Staff:</h3>
+        <p>Kennedy Akenga (CEO), Hamadi Mwazito (Credit Officer), Bakari Nyae (Accountant).</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="members" class="reveal">
+  <h2>Our Members</h2>
+
+  <div class="members-nav">
+    <button class="tab-btn active" data-target="comittee">Comittee</button>
+    <button class="tab-btn" data-target="staff">Staff</button>
+  </div>
+
+  <div class="members-gallery">
+    <div class="member-card tab-content comittee active">
+      <img src="images/11.jpg" alt="Jane Doe">
+        <h4>SAWA NGALAA</h4>
+        <p>CHAIRMAN</p>
+    </div>
+    <div class="member-card tab-content comittee active">
+      <img src="images/13.jpg" alt="Jane Doe">
+        <h4>ZENA ALI GUHA</h4>
+        <p>VICE CHAIR</p>
+    </div>
+    <div class="member-card tab-content comittee active">
+      <img src="images/14.jpg" alt="Jane Doe">
+        <h4>FELLISTUS NDUKU</h4>
+        <p>COMITTEE MEMBER</p>
+    </div>
+    <div class="member-card tab-content comittee active">
+      <img src="images/15.jpg" alt="Jane Doe">
+        <h4>NGAO TSUNGU</h4>
+        <p>COMITTEE MEMBER</p>
+    </div>
+    <div class="member-card tab-content comittee active">
+      <img src="images/17.jpg" alt="Jane Doe">
+        <h4>MWAKA MWACHITI</h4>
+        <p>COMITTEE MEMBER</p>
+    </div>
+
+    <div class="member-card tab-content staff">
+      <img src="images/20.jpg" alt="Anna Mwende">
+      <h4>KENNEDY AKENGA</h4>
+      <p>CEO</p>
+    </div>
+    <div class="member-card tab-content staff">
+      <img src="images/19.jpg" alt="Anna Mwende">
+      <h4>MWATONDO HASSAN</h4>
+      <p>TREASURER</p>
+    </div>
+    <div class="member-card tab-content staff">
+      <img src="images/18.jpg" alt="Anna Mwende">
+      <h4>BAKARI NYAE</h4>
+      <p>ACCOUNTANT</p>
+    </div>
+    <div class="member-card tab-content staff">
+      <img src="images/12.jpg" alt="Anna Mwende">
+      <h4>HAMADI MWAZITTO</h4>
+      <p>CREDIT OFFICER</p>
+    </div>
+    <!-- Add more items per category similarly -->
+  </div>
+</section>
+
+
+  <div class="testimonial">
+    <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>“Best SACCO experience—easy loans, great support!”</p>
+      <img src="images/4.jpg" alt="User photo" class="testimonial-img">
+      <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i></div>
+      <h4>Anonymous User</h4>
+    </div>
+	 <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>“Best SACCO experience—easy loans, great support!”</p>
+      <img src="images/4.jpg" alt="User photo" class="testimonial-img">
+      <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i></div>
+      <h4>Anonymous User</h4>
+    </div>
+	 <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>“Best SACCO experience—easy loans, great support!”</p>
+      <img src="images/4.jpg" alt="User photo" class="testimonial-img">
+      <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i></div>
+      <h4>Anonymous User</h4>
+    </div>
+    <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>“Best SACCO experience—easy loans, great support!”</p>
+      <img src="images/4.jpg" alt="User photo" class="testimonial-img">
+      <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i></div>
+      <h4>Anonymous User</h4>
+    </div>
+  </div>
+
+  <section id="gallery" class="gallery-section">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item"><img src="images/22.png" alt="Gallery Image 1"></div>
+    <div class="gallery-item"><img src="images/23.png" alt="Gallery Image 2"></div>
+    <div class="gallery-item"><img src="images/24.png" alt="Gallery Image 3"></div>
+    <div class="gallery-item"><img src="images/25.png" alt="Gallery Image 4"></div>
+    <div class="gallery-item"><img src="images/26.png" alt="Gallery Image 5"></div>
+    <div class="gallery-item"><img src="images/27.png" alt="Gallery Image 6"></div>
+    <div class="gallery-item"><img src="images/28.png" alt="Gallery Image 7"></div>
+    <div class="gallery-item"><img src="images/29.png" alt="Gallery Image 8"></div>
+    <div class="gallery-item"><img src="images/41.jpg" alt="Gallery Image 1"></div>
+    <div class="gallery-item"><img src="images/42.jpg" alt="Gallery Image 2"></div>
+    <div class="gallery-item"><img src="images/43.jpg" alt="Gallery Image 3"></div>
+    <div class="gallery-item"><img src="images/50.jpg" alt="Gallery Image 4"></div>
+    <div class="gallery-item"><img src="images/44.jpg" alt="Gallery Image 5"></div>
+    <div class="gallery-item"><img src="images/49.jpg" alt="Gallery Image 6"></div>
+    <div class="gallery-item"><img src="images/45.jpg" alt="Gallery Image 7"></div>
+    <div class="gallery-item"><img src="images/46.jpg" alt="Gallery Image 8"></div>
+    <div class="gallery-item"><img src="images/47.jpg" alt="Gallery Image 7"></div>
+    <div class="gallery-item"><img src="images/48.jpg" alt="Gallery Image 8"></div>
+  </div>
+</section>
+
+
+ <section id="contact">
+    <h3>Contact Us</h3>
+    <div class="contact-container">
+      <div class="contact-info">
+         <p class="welcome-cta">
+          **Welcome! Feel free to reach out to us anytime!** <span class="cta-icon">📬</span>
+        </p>
+        <p><strong>Location:</strong> Kwale County, Kenya.</p>
+        <p><strong>Phone:</strong> <a href="tel:+254796361377">+254796361377</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@neemekasacco.co.ke">info@neemekasacco.co.ke</a></p>
+      </div>
+      <form class="contact-form">
+        <h3>Send Us a Message</h3>
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-row">
+          <input type="tel" name="phone" placeholder="Phone (optional)">
+        </div>
+        <div class="form-row">
+          <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <div class="form-row">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>© 2025 NEEMEKA SACCO. All Rights Reserved.</p>
+  </footer>
+</div>
+
+<script>
+
+  function menutoggle() {
+      const menu = document.getElementById('MenuItems');
+      menu.style.maxHeight = menu.style.maxHeight === '0px' || !menu.style.maxHeight ? '200px' : '0px';
+    }
+    document.getElementById('MenuItems').style.maxHeight = '0px';
+    document.getElementById('sidebar-toggle').addEventListener('click', function() {
+    document.getElementById('sidebar-nav').classList.add('open');
+  });
+  document.querySelector('.sidebar-close').addEventListener('click', function() {
+    document.getElementById('sidebar-nav').classList.remove('open');
+  });
+  document.addEventListener('click', function(e) {
+    if (!document.getElementById('sidebar-nav').contains(e.target) &&
+        !document.getElementById('sidebar-toggle').contains(e.target)) {
+      document.getElementById('sidebar-nav').classList.remove('open');
+    }
+  });
+
+</script>
+<script>
+    function isMobile() {
+        return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    }
+
+    function openWhatsAppLink() {
+        const whatsappLink = "https://chat.whatsapp.com/Hc5ohgd3B7z2fiwHP7emZW";
+        
+        if (isMobile()) {
+            window.location.href = whatsappLink; // Opens link directly on mobile devices
+        } else {
+            alert("Please open this link on your mobile device with WhatsApp installed.");
+            // Optionally, redirect to WhatsApp Web for desktop users
+            // window.location.href = "https://web.whatsapp.com";
+        }
+    }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const loanItems = document.querySelectorAll('.loan-item');
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    loanItems.forEach(item => observer.observe(item));
+    reveals.forEach(el => observer.observe(el));
+  });
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const target = btn.getAttribute('data-target');
+      document.querySelectorAll('.tab-content').forEach(card => {
+        card.classList.toggle('active', card.classList.contains(target));
+      });
+    });
+  });
+
+
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>

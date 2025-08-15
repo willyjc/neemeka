@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEEMEKA SACCO</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Top bar with contact & social icons -->
+<div class="top-bar">
+  <div class="top-left">
+    <span><a href="tel:+254796361377">+254796361377</a></span> 
+    | <span><a href="mailto:info@neemekasacco.co.ke">info@neemekasacco.co.ke</a></span>
+  </div>
+  <div class="top-right">
+    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+
+<!-- Main navbar -->
+<header class="navbar">
+  <!-- Sidebar toggle icon next to logo -->
+  <div id="sidebar-toggle" class="side-toggle-icon">
+    <i class="fas fa-bars"></i>
+  </div>
+  
+  <!-- Off-canvas side navigation -->
+  <div id="sidebar-nav" class="sidebar-nav">
+    <div class="sidebar-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <ul class="sidebar-menu">
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li class="dropdown">
+          <a href="#products">
+            <i class="fas fa-info-circle"></i> About Us <i class="fas fa-caret-down caret"></i>
+          </a>
+          <ul class="submenu">
+            <li><a href="history.html">Our History</a></li>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="vision.html">Our Vision</a></li>
+            <li><a href="core.html">Our Core Values</a></li>
+            <li><a href="management.html">Our Management</a></li>
+          </ul>
+        </li>
+      <li class="dropdown">
+        <a href="#products">
+          <i class="fas fa-box-open"></i> Products <i class="fas fa-caret-down caret"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="deposit.html">Deposit Accounts</a></li>
+          <li><a href="savings.html">Smart Savings Solutions</a></li>
+          <li><a href="loans.html">Smart Loan Solutions</a></li>
+        </ul>
+      </li>
+      <li><a href="index.html#gallery"><i class="fas fa-image"></i> Gallery</a></li>
+         <li class="dropdown">
+        <a href="#products">
+          <i class="fas fa-file-alt"></i> Resources <i class="fas fa-caret-down caret"></i>
+        </a>
+        <ul class="submenu">
+            <li><a href="downloads.html">Deposit Accounts</a></li>
+            <li><a href="articles.html">New Articles</a></li>
+            <li><a href="tenders.html">Tenders</a></li>
+        </ul>
+      </li>
+      <li><a href="index.html#contact"><i class="fas fa-phone"></i> Contact</a></li>
+    </ul>
+    <div class="sidebar-social">
+      <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <a href="index.html" class="logo-link">
+    <h3 style="color:#0e1da0;">NEEMEKA SACCO</h3>
+    <img src="images/logo2.jpg" alt="NEEMEKA SACCO logo">
+  </a>
+
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="index.html">HOME</a></li>
+         <li class="dropdown">
+          <a href="#about">ABOUT US</a>
+          <ul class="submenu">
+             <li><a href="history.html">Our History</a></li>
+              <li><a href="mission.html">Our Mission</a></li>
+              <li><a href="vision.html">Our Vision</a></li>
+              <li><a href="core.html">Our Core Values</a></li>
+              <li><a href="management.html">Our Management</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#products">PRODUCTS & SERVICES</a>
+          <ul class="submenu">
+            <li><a href="deposit.html">Deposit Accounts</a></li>
+            <li><a href="savings.html">Smart Savings Solutions</a></li>
+            <li><a href="loans.html">Smart Loan Solutions</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html#gallery">GALLERY</a></li>
+         <li class="dropdown">
+          <a href="#products">RESOURCES</a>
+          <ul class="submenu">
+            <li><a href="downloads.html">Deposit Accounts</a></li>
+            <li><a href="articles.html">New Articles</a></li>
+            <li><a href="tenders.html">Tenders</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <a href="/join" class="join-button">Join Us</a>
+
+  </div>
+  <div class="mobile-toggle">
+    <i class="fas fa-bars" onclick="menutoggle()"></i>
+  </div>
+</header>
+
+    <section id="about">
+        <div class="about-wrapper">
+            <div class="about-text">
+              <h2>Vision</h2>
+                <p>To be the model SACCO in offering quality and innovative solutions.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/2.jpg" alt="About NEEMEKA SACCO">
+            </div>
+        </div>
+    </section>
+
+
+  <footer class="footer">
+    <p>© 2025 NEEMEKA SACCO. All Rights Reserved.</p>
+  </footer>
+</div>
+
+<script>
+
+  function menutoggle() {
+      const menu = document.getElementById('MenuItems');
+      menu.style.maxHeight = menu.style.maxHeight === '0px' || !menu.style.maxHeight ? '200px' : '0px';
+    }
+    document.getElementById('MenuItems').style.maxHeight = '0px';
+    document.getElementById('sidebar-toggle').addEventListener('click', function() {
+    document.getElementById('sidebar-nav').classList.add('open');
+  });
+  document.querySelector('.sidebar-close').addEventListener('click', function() {
+    document.getElementById('sidebar-nav').classList.remove('open');
+  });
+  document.addEventListener('click', function(e) {
+    if (!document.getElementById('sidebar-nav').contains(e.target) &&
+        !document.getElementById('sidebar-toggle').contains(e.target)) {
+      document.getElementById('sidebar-nav').classList.remove('open');
+    }
+  });
+
+</script>
+<script>
+    function isMobile() {
+        return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    }
+
+    function openWhatsAppLink() {
+        const whatsappLink = "https://chat.whatsapp.com/Hc5ohgd3B7z2fiwHP7emZW";
+        
+        if (isMobile()) {
+            window.location.href = whatsappLink; // Opens link directly on mobile devices
+        } else {
+            alert("Please open this link on your mobile device with WhatsApp installed.");
+            // Optionally, redirect to WhatsApp Web for desktop users
+            // window.location.href = "https://web.whatsapp.com";
+        }
+    }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const loanItems = document.querySelectorAll('.loan-item');
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    loanItems.forEach(item => observer.observe(item));
+    reveals.forEach(el => observer.observe(el));
+  });
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const target = btn.getAttribute('data-target');
+      document.querySelectorAll('.tab-content').forEach(card => {
+        card.classList.toggle('active', card.classList.contains(target));
+      });
+    });
+  });
+
+// script.js – run after DOM is loaded
+document.querySelectorAll('.sidebar-menu .dropdown').forEach(drop => {
+  const link = drop.querySelector('a');
+  const submenu = drop.querySelector('.submenu');
+
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    // toggle visibility
+    drop.classList.toggle('open');
+    submenu.style.display = drop.classList.contains('open') ? 'block' : 'none';
+
+    // reset flip
+    drop.classList.remove('drop-up');
+    submenu.style.top = '';
+
+    // measure overflowing
+    const rect = submenu.getBoundingClientRect();
+    const winH = window.innerHeight;
+    if (rect.bottom > winH) {
+      drop.classList.add('drop-up');
+      submenu.style.top = `-${rect.height}px`; // position it above
+    }
+  });
+});
+
+</script>
+
+
+<script src="script.js"></script>
+</body>
+</html>
